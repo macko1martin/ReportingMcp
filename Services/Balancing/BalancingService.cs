@@ -1,6 +1,6 @@
 ﻿using ReportingMCP.Models.Balancing;
 
-namespace ReportingMCP.Services;
+namespace ReportingMCP.Services.Balancing;
 
 public class BalancingService(IBalancingApiHttpClient balancingApiHttpClient) : IBalancingService
 {

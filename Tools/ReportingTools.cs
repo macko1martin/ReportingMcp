@@ -1,7 +1,7 @@
 ﻿using ModelContextProtocol.Server;
 using System.ComponentModel;
 using System.Text.Json;
-using ReportingMCP.Services;
+using ReportingMCP.Services.Balancing;
 
 namespace ReportingMCP.Tools;
 

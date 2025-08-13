@@ -1,9 +1,8 @@
 using ReportingMCP.Models.Balancing;
 
-namespace ReportingMCP.Services.Balancing
+namespace ReportingMCP.Services.Balancing;
+
+public interface IBalancingService
 {
-    public interface IBalancingService
-    {
-        Task<List<BalancingDealResponse>> GetAllDeals();
-    }
+    Task<List<BalancingDealResponse>> GetAllDeals();
 }
